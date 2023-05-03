@@ -1,0 +1,8 @@
+:root {
+    --primary-color-1: hsl(215, 51%, 70%);
+    --primary-color-2: hsl(178, 100%, 50%);
+    --neutral-color-1: hsl(217, 54%, 11%); /* main BG */
+    --neutral-color-2: hsl(216, 50%, 16%); /* card BG */
+    --neutral-color-3: hsl(215, 32%, 27%); /* line */
+    --neutral-color-4: hsl(0, 0%, 100%);
+}
