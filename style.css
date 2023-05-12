@@ -104,8 +104,14 @@ body {
   padding: 1.25rem;
   gap: 1rem;
   font-family: var(--ff-main);
-
+  font-weight: var(--fw-regular);
   font-size: 0.75rem;
+}
+
+@media (min-width: 600px) {
+  .card {
+    max-width: 21.875rem;
+  }
 }
 
 .flex-group {
@@ -124,11 +130,17 @@ body {
 
 .flex-group.avatar {
   gap: 1rem;
+  padding-bottom: 0.25rem;
+  font-weight: var(--fw-regular);
 }
 
 .flex-group.ethereum-time {
   display: flex;
   gap: 7.5rem;
+}
+
+.description {
+  padding-right: 1rem;
 }
 
 .line-content {
@@ -168,6 +180,7 @@ body {
   width: 100%;
   transition: .5s ease;
   backface-visibility: hidden;
+  border-radius: 0.75rem;
 }
 
 .hover-image {
@@ -178,10 +191,12 @@ body {
   transition: 2.5s ease;
   opacity: 0;
   width: 100%;
+
 }
 
 .card-image:hover .hover-image {
   opacity: 0.5;
+  
 }
 
 .card-header:hover .overlay {
@@ -192,4 +207,5 @@ body {
   height: 100%;
   padding-top: 40%;
   padding-left: 43%;
+  border-radius: 0.75rem;
 }
